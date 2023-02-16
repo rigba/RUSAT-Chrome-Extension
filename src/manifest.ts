@@ -4,7 +4,7 @@ export default defineManifest({
   name: 'RUsat - Focus Helper',
   description:
     'A free to use extension which allows the user to customize "soft restrictions" on distracting websites to stay focused and crush your goals.',
-  version: '0.0.0',
+  version: '1.0.0',
   manifest_version: 3,
   icons: {
     '72': 'img/icon.png',
