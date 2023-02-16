@@ -3,7 +3,7 @@ import { defineManifest } from '@crxjs/vite-plugin'
 export default defineManifest({
   name: 'RUsat - Focus Helper',
   description:
-    'A free to use extension which allows the user to customize "soft restrictions" on distracting websites to stay focused and crush your goals.',
+    'A free to use extension which allows the user to customize "soft restrictions" on distracting websites to stay focused.',
   version: '1.0.0',
   manifest_version: 3,
   icons: {
