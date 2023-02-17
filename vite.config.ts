@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => {
       outDir: 'build',
       rollupOptions: {
         input: {
-          welcome: resolve(__dirname, 'index.html'),
+          home: resolve(__dirname, 'block.html'),
         },
         output: {
           chunkFileNames: 'assets/chunk-[hash].js',

@@ -9,7 +9,7 @@ const run = async () => {
       console.log(Date.parse(date))
       console.log(new Date().getTime())
       if (Date.parse(date) < new Date().getTime() || !date) {
-        window.location.href = window.chrome.runtime.getURL('/')
+        window.location.href = window.chrome.runtime.getURL('/block.html')
       }
     }
   }
