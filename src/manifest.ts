@@ -27,7 +27,7 @@ export default defineManifest({
   web_accessible_resources: [
     {
       resources: ['img/icon.png', 'block.html'],
-      matches: [],
+      matches: ['<all_urls>'],
     },
   ],
   permissions: ['storage'],
