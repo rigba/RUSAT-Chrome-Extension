@@ -1,6 +1,10 @@
 import { useEffect } from 'react'
 
 function App() {
+  const search = window.location.search
+  const params = new URLSearchParams(search)
+  const destination = params.get('destination') as string
+  
   return (
     <div>
       <div className="w-[95%] max-w-4xl flex flex-col items-center justify-center mx-auto absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
@@ -36,7 +40,7 @@ function App() {
               window.chrome.storage.sync.set({
                 timer: new Date(new Date().getTime() + 10 * 60000).toUTCString(),
               })
-              window.history.back()
+              window.location.assign(destination)
             }}
           >
             Proceed
