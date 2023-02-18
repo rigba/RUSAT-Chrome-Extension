@@ -4,7 +4,7 @@ function App() {
       <div className="m-2" />
       <div className="text-2xl text-center font-semibold">R U Sure About That? 🤔</div>
 
-      <h6 className="text-gray-200 text-center">v 1.0.0</h6>
+      <h6 className="text-gray-200 text-center">v 1.0.1</h6>
       <div className="m-2" />
       <button
         className="w-fit bg-blue-500 rounded-md text-base font-semibold flex gap-2 p-2"

@@ -38,7 +38,7 @@ function App() {
         </a>
         .
       </span>
-      <h6 className="text-gray-200 text-center-mt-2">v 1.0.0</h6>
+      <h6 className="text-gray-200 text-center-mt-2">v 1.0.1</h6>
       <div className="m-2" />
       <div className="text-3xl text-center font-semibold">Options Page</div>
       <div className="m-4" />
