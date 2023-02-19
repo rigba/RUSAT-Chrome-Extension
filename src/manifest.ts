@@ -14,10 +14,6 @@ export default defineManifest({
     default_icon: 'img/icon.png',
   },
   options_page: 'options.html',
-  background: {
-    service_worker: 'src/background/index.ts',
-    type: 'module',
-  },
   content_scripts: [
     {
       matches: ['<all_urls>'],
